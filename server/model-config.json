@@ -129,5 +129,9 @@
   "Range": {
     "dataSource": "db",
     "public": true
+  },
+  "Pet": {
+    "dataSource": "db",
+    "public": true
   }
 }

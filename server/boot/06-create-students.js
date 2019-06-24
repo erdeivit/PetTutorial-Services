@@ -218,14 +218,14 @@ module.exports = function (app, cb) {
                                                               if (err) throw err;
                                                               teams[1].students.add(students[12], function (err) {
                                                                 if (err) throw err;
-                                                             process.nextTick(cb);
-                                                         })
-                                                     })
-                                                   })
-                                                  })
-                                                })
-                                              })
-                                            });
+                                                                process.nextTick(cb);
+                                                              })
+                                                            })
+                                                          })
+                                                        })
+                                                      })
+                                                    })
+                                                  });
                                                 })
                                               })
                                             })

@@ -18,6 +18,9 @@
     "profileImage": {
       "type": "string",
       "required": true
+    },
+    "petId": {
+      "type": "number"
     }
   },
   "validations": [],
@@ -85,6 +88,11 @@
     "resultquestionnaire": {
       "type": "hasMany",
       "model": "resultQuestionnaire",
+      "foreignKey": "studentId"
+    },
+    "pet": {
+      "type": "hasOne",
+      "model": "Pet",
       "foreignKey": "studentId"
     }
   },
